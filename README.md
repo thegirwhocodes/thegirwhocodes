@@ -14,11 +14,13 @@ I am the founder of Education for Equality, where I am building phone-accessible
 | --- | --- |
 | [Portfolio](https://github.com/thegirwhocodes/portfolio) | Current personal site and writing surface. Next.js, TypeScript, editorial design. |
 | [Dactyl](https://github.com/thegirwhocodes/Dactyl-Final) | Bidirectional ASL translation glasses with sub-second sign-to-speech and speech-to-caption flow. MediaPipe, LSTM, Groq, Whisper, Edge TTS. Morgan Hacks 2026, 1st place. |
-| [Adjutant](https://github.com/thegirwhocodes/adjutant) | Offline, voice-first AI assistant for Army paperwork. Python, local document processing, SCSP Hackathon 2026 GenAI.mil track. |
-| [Email](https://github.com/thegirwhocodes/email) | Hands-free voice email triage that reads an inbox, prioritizes what matters, and drafts replies in the user's voice. Next.js, Gmail OAuth, Claude, streaming voice UI. |
+| [Sage Mail](https://github.com/thegirwhocodes/email) | Voice-first Gmail agent that reads the important message first, drafts in the user's voice, and gates every send behind approval. Next.js, Gmail OAuth, Claude, streaming voice UI. |
+| [Kai](https://github.com/thegirwhocodes/kai) | Adaptive focus coach that personalizes block lengths from focus ratings, fatigue, streak, and calendar fit instead of hard-coding 25/5. |
+| [Go](https://github.com/thegirwhocodes/Go) | Commitment-device iOS app: calendar, walking ETA, geofence arrival, Stripe penalty charge, and seven-day payment-method lockup. |
 | [Ed.it](https://github.com/thegirwhocodes/edit) | Desktop AI video editing agent: drop a clip, type a brief, get a finished edit. |
-| [Kai](https://github.com/thegirwhocodes/kai) | Adaptive Pomodoro voice coach grounded in research on attention, motivation, and behavior change. |
+| [Adjutant](https://github.com/thegirwhocodes/adjutant) | Offline, voice-first AI assistant for Army paperwork. Local RAG, cited answers, form fill, Python, SCSP Hackathon 2026 GenAI.mil track. |
 | [Bethel](https://github.com/thegirwhocodes/bethel) | Native iOS Bible reading and dream journaling app with a layered AI pipeline: personal RAG, local model work, Scripture retrieval, and Claude. |
+| [Rings](https://github.com/thegirwhocodes/Rings) | Personal CRM built around Dunbar's circles, with calibrated relationship cadences and SwiftUI/CloudKit sync. |
 
 ## How I work
 
