@@ -37,12 +37,12 @@ Building voice-first AI systems, low-latency telephony agents, and real-time mac
 
 Most of what I build now lives in private startup and production systems. Below are key public repositories and architectural deep-dives:
 
-**[Ayo / SafeLine](https://github.com/thegirwhocodes/safe-line)** *(HackPrinceton Fall '26 · LangChain, Healthcare & Sponsor Tracks)*  
-*Full-duplex crisis telephony and silent-text triage platform with clinical trauma grounding and deterministic safety guardrails.*
-* **Deterministic LangGraph Pipeline:** Architected a 4-node state machine (`pii_scrubber` → dual-engine risk scorer → trauma responder → automated caseworker dispatch) enforcing a hard regex safety floor alongside Gemini evaluation.
-* **Low-Latency Telephony Audio Filter:** Wrote a pure-Python integer 3:1 decimation filter with precomputed lookup tables converting 24 kHz Gemini Live audio into 8 kHz G.711 $\mu$-law for telephony with sub-millisecond conversion and zero external C dependencies.
-* **Voice Biometrics:** Spliced ReDimNet2+ speaker recognition models over 8 kHz audio channels, enabling zero-credential caller re-identification across anonymous and burner numbers.
-* **Rigorous Synthetic Evals:** Engineered an automated 40-case synthetic evaluation suite across Nigerian Pidgin, British, and US vernacular—achieving **100.0% escalation recall** on crisis and **0.0% false positives**.
+**[Ayo](https://github.com/thegirwhocodes/ayo-work)** *(24/7 Trauma-Informed Child-Safety Telephony & Deep Agent Triage · Education for Equality)*  
+*Full-duplex telephony voice agent and background Deep Agent case manager engineered with clinical trauma care (Psychological First Aid & NICHD protocols).*
+* **Decoupled Fast-Voice / Deep-Agent Architecture:** Fast voice loop (Twilio / Asterisk AudioSocket $\leftrightarrow$ OpenAI Realtime + ElevenLabs Bukola or Gemini Live) streaming audio with zero awkward latency, while a background Deep Agent orchestrator (`harness/case_manager.py`) coordinates parallel triage, reviewed clinical corpus RAG, and rubric self-checking subagents.
+* **Clinical Support RAG & Encrypted Memory:** PostgreSQL + `pgvector` semantic retrieval over child-safeguarding corpora using Cohere embeddings; Fernet-encrypted caller memory with HMAC identity tracking speaking pace and calming preferences.
+* **Emergency Escalation Dispatch:** One-use encrypted escalation job runner dispatching automated emergency alerts and verified responder handoffs upon explicit consent.
+* **Rigorous Synthetic Evals:** Tested across extensive synthetic case dialogues spanning Nigerian Pidgin, British, and US vernacular—achieving **100.0% escalation recall** on crisis disclosures and **0.0% false positives**.
 
 **[Sabi / Education for Equality](https://github.com/thegirwhocodes/sabi-server)** *(Flagship Venture · 501(c)(3) · [Request Private Access](mailto:nivie@wesleyan.edu?subject=Request%20Private%20Repository%20Access%20(Sabi)&body=Hi%20Naomi,%0D%0A%0D%0AI%20would%20like%20to%20review%20the%20Sabi%20production%20codebase%20and%20telephony%20pipelines.%0D%0A%0D%0AMy%20GitHub%20username%20is:%20%0D%0AOrganization%20/%20Role:%20%0D%0A%0D%0AThanks!))*  
 *AI-powered voice tutor delivering foundational literacy and numeracy to 33M+ under-educated children across Nigeria over standard 2G telephony (`+234 201 700 1459`) at ~$0.41/student marginal cost.*
