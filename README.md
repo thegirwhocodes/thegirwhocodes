@@ -5,6 +5,20 @@ Building voice-first AI systems, low-latency telephony agents, and real-time mac
 
 ---
 
+### 🏆 Honors & Recognition
+
+* **Winner: Best Use of Statistical Methods** — **ASA DataFest 2026** (American Statistical Association)  
+  *Awarded top honors for multivariate statistical modeling and propensity-score matching across 7.6M clinical records and 947,685 patients.*
+* **1st Place Overall Grand Champion** — **Morgan Hacks 2026**  
+  *Grand Champion out of 100+ competitors for [Dactyl](https://github.com/thegirwhocodes/Dactyl-Final)—bidirectional ASL smart glasses with real-time MediaPipe TGCN sign-to-speech classification.*
+* **Grand Prize Winner ($8,000)** — **Wesleyan New Venture Awards 2026**  
+  *Grand prize selected across 37 ventures for Sabi's 2G voice telephony learning infrastructure in Nigeria.*
+* **2nd Place Winner ($3,000)** — **MIT Africa Business Challenge 2026**  
+  *Honored for scalable low-cost mobile educational architecture.*
+* **Selected Founder & Impact Fellow** — **UNICEF / Technovation GenU** & **ElevenLabs Impact Program**
+
+---
+
 ### 🧰 What I use
 
 **AI, Agents & Real-Time Voice**
@@ -33,9 +47,9 @@ Building voice-first AI systems, low-latency telephony agents, and real-time mac
 
 ---
 
-### 📌 Featured Work
+### 📌 Featured Engineering & Data Systems
 
-Most of what I build now lives in private startup and production systems. Below are key public repositories and architectural deep-dives:
+Most of what I build now lives in private startup and production systems. Below are key public repositories, architectural deep-dives, and research:
 
 **[Ayo](https://github.com/thegirwhocodes/ayo-work)** *(24/7 Trauma-Informed Child-Safety Telephony & Deep Agent Triage · Education for Equality)*  
 *Full-duplex telephony voice agent and background Deep Agent case manager engineered with clinical trauma care (Psychological First Aid & NICHD protocols).*
@@ -43,6 +57,12 @@ Most of what I build now lives in private startup and production systems. Below 
 * **Clinical Support RAG & Encrypted Memory:** PostgreSQL + `pgvector` semantic retrieval over child-safeguarding corpora using Cohere embeddings; Fernet-encrypted caller memory with HMAC identity tracking speaking pace and calming preferences.
 * **Emergency Escalation Dispatch:** One-use encrypted escalation job runner dispatching automated emergency alerts and verified responder handoffs upon explicit consent.
 * **Rigorous Synthetic Evals:** Tested across extensive synthetic case dialogues spanning Nigerian Pidgin, British, and US vernacular—achieving **100.0% escalation recall** on crisis disclosures and **0.0% false positives**.
+
+**[ASA DataFest 2026: Stormont Vail EHR & Health Economics Analysis](https://github.com/thegirwhocodes)** *(Winner: Best Use of Statistical Methods · American Statistical Association)*  
+*Large-scale observational data science and econometric analysis over **7.6 million clinical encounters** across **947,685 patients** from Stormont Vail Health (Topeka, KS) to investigate the digital health portal divide and emergency department recidivism.*
+* **Statistical Modeling & Propensity Matching:** Built multivariate logistic regression models ($N = 296,563$) controlling for age, sex, healthcare utilization, and chronic comorbidities. Deployed propensity-score matching (PSM) demonstrating that patient portal activation yields a **57% reduction in emergency department visits** (0.89 vs 2.07 visits, $p < 0.001$), with frequent ED users ($3+$ visits) dropping from 22.6% to 9.9%.
+* **Disparity Quantification & Spatial Fusion:** Uncovered substantial racial activation gaps ($\chi^2 = 5,339, p \approx 0$; Asian 77%, White 74% vs Black 60%, Hispanic 60%) and a 49 percentage-point geographic divide across Kansas counties (31% Cloud County vs 80% Shawnee County). Merged 14 external datasets (Census TIGER, CDC PLACES, Kansas Health Institute, USDA ERS) revealing that 8 of 10 lowest-activation counties map to federal Rural Health Transformation Priority (RHTP) zones ($r = -0.25$ broadband correlation).
+* **Health Economics & ROI Model:** Formulated an operational healthcare intervention showing that a 10 percentage-point gain in patient portal activation prevents 13,990 unnecessary ED visits, delivering **\$19M to \$34M in annual healthcare savings** (33x–57x ROI against a \$600K 5-navigator hospital deployment budget).
 
 **[Sabi / Education for Equality](https://github.com/thegirwhocodes/sabi-server)** *(Flagship Venture · 501(c)(3) · [Request Private Access](mailto:nivie@wesleyan.edu?subject=Request%20Private%20Repository%20Access%20(Sabi)&body=Hi%20Naomi,%0D%0A%0D%0AI%20would%20like%20to%20review%20the%20Sabi%20production%20codebase%20and%20telephony%20pipelines.%0D%0A%0D%0AMy%20GitHub%20username%20is:%20%0D%0AOrganization%20/%20Role:%20%0D%0A%0D%0AThanks!))*  
 *AI-powered voice tutor delivering foundational literacy and numeracy to 33M+ under-educated children across Nigeria over standard 2G telephony (`+234 201 700 1459`) at ~$0.41/student marginal cost.*
@@ -100,5 +120,5 @@ I am interested in **Early-Career AI Systems, Deployed Engineering, and Founding
 
 * **Email:** [nivie@wesleyan.edu](mailto:nivie@wesleyan.edu)
 * **LinkedIn:** [linkedin.com/in/naomi-ivie](https://linkedin.com/in/naomi-ivie)
-* **Portfolio:** [naomiivie.vercel.app](https://naomiivie.vercel.app)
-* **GitHub:** [@thegirwhocodes](https://github.com/thegirwhocodes)
+* **Website:** [naomiivie.vercel.app](https://naomiivie.vercel.app)
+* **X / Twitter:** [@thegirwhocodes](https://x.com/thegirwhocodes)
