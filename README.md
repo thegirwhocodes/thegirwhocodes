@@ -51,6 +51,12 @@ Most of what I build now lives in private startup and production systems. Below 
 * **Edge Deployment:** Deployed on dedicated Ubuntu nodes in Johannesburg (Vultr) to minimize intercontinental telephony round-trip latency to sub-800ms across West African cellular networks.
 * **Recognition & Pilots:** Selected for the **UNICEF AI Ventures Accelerator** ($10,000 equity-free track) and active evaluation cohort with ~500 secondary school students in Rivers State.
 
+**[Cortex / Cortex-Web](https://github.com/thegirwhocodes/cortex-web)** *(Personal AI Second Brain & Multi-Modal Intelligence System · [Request Private Access](mailto:nivie@wesleyan.edu?subject=Request%20Private%20Repository%20Access%20(Cortex)&body=Hi%20Naomi,%0D%0A%0D%0AI%20would%20like%20to%20review%20the%20Cortex%20system%20codebase%20and%20LoRA%20adapters.%0D%0A%0D%0AMy%20GitHub%20username%20is:%20%0D%0AOrganization%20/%20Role:%20%0D%0A%0D%0AThanks!))*  
+*An autonomous personal AI agent ingesting cross-platform digital data (email, calendar, notes, messaging), maintaining continuous semantic memory, and executing actions in the user's authentic tone.*
+* **Multi-Layer Architecture:** Engineered a 3-layer personal cognition stack: Layer 1 (Multi-Source Ingestion & Semantic Memory across Gmail OAuth, Apple Notes, Calendar, and iMessage into a unified vector store), Layer 2 (Context Synthesis & Proactive Daily Briefings across visual life "Spheres"), and Layer 3 (Autonomous Action Engine with human-in-the-loop gates).
+* **Personalized LoRA Adapters:** Configured serverless GPU workers on RunPod (`cortex-runpod-lora-worker`) to train low-rank adaptation (LoRA) adapters, aligning model voice and decision boundaries to personal writing patterns.
+* **Hybrid Web & Desktop Client:** Built on Next.js 15/16 and Tauri with a local IPC data bridge, ensuring sensitive credentials and token caches remain encrypted on-device. Predecessor prototype open-sourced at [thegirwhocodes/spheres-app](https://github.com/thegirwhocodes/spheres-app).
+
 **[Dactyl](https://github.com/thegirwhocodes/Dactyl-Final)** *(1st Place Overall Grand Champion · Morgan Hacks 2026)*  
 *Bidirectional American Sign Language (ASL) smart glasses: real-time sign-to-speech and speech-to-AR captioning.*
 * **Kinematic Tracking & Classification:** Extracted skeletal landmarks using MediaPipe feeding a hybrid Temporal Graph Convolutional Network (TGCN) + LSTM classifier to recognize continuous dynamic sign sequences.
